@@ -1,0 +1,25 @@
+﻿<Window x:Class="Manage_my_workshop.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Manage_my_workshop"
+        mc:Ignorable="d"
+         Title="S'inscrire" Height="450" Width="800"
+        ResizeMode="NoResize"
+        Background="White"
+        Icon="images/brand/logo_500.png"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Name="back" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0 0 -40 0">
+            <Button Name="button_back" Height="50" Width="50" BorderThickness="0" Background="Transparent" Cursor="Hand" Margin="0 0 0 0" Click="Button_back_Click">
+                <Image Name="back_icons" Source="images\icons\icons8-retour-48.png" Width="30" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Button>
+        </StackPanel>
+        <StackPanel Name="setting_help" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,50,-83,0">
+            <Button x:Name="button_help" Height="50" Width="50" BorderThickness="0" Background="Transparent" Cursor="Hand" Margin="0,-50,80,0" Click="Button_help_Click">
+                <Image x:Name="help_icons" Source="images\icons\icons8-info-100.png" Width="30" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

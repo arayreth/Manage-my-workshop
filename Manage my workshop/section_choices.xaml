@@ -1,0 +1,52 @@
+﻿<Window x:Class="Manage_my_workshop.section_choices"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Manage_my_workshop"
+        mc:Ignorable="d"
+        Title="Choix de la section" Height="450" Width="800"
+        Background="White"
+        Icon="images/brand/logo_500.png"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="SingleBorderWindow"
+        WindowState="Normal"
+        ResizeMode="NoResize">
+    <Grid>
+        <StackPanel Name="setting_help" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 0 -40 0">
+            <Button Name="button_setting" Width="50" Height="50" BorderThickness="0" Background="Transparent" Cursor="Hand" Margin="0 0 0 0" Click="Button_setting_Click">
+                <Image Name="setting_icons" Source="images\icons\icons8-paramètres-100.png" Width="30" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Button>
+            <Button x:Name="button_help" Height="50" Width="50" BorderThickness="0" Background="Transparent" Cursor="Hand" Margin="0,-50,80,0" Click="Button_help_Click">
+                <Image x:Name="help_icons" Source="images\icons\icons8-info-100.png" Width="30" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Button>
+        </StackPanel>
+        <StackPanel Name="back" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0 0 -40 0">
+            <Button Name="button_back" Height="50" Width="50" BorderThickness="0" Background="Transparent" Cursor="Hand" Margin="0 0 0 0" Click="Button_back_Click">
+                <Image Name="back_icons" Source="images\icons\icons8-retour-48.png" Width="30" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Button>
+        </StackPanel>
+        <!--mettre text-->
+        <StackPanel Name="title" VerticalAlignment="Top" HorizontalAlignment="Center">
+            <TextBlock x:Name="choices" Text="Choisisez votre section" FontWeight="Light" FontFamily="Microsoft Sans Serif" FontSize="30" Foreground="Black" Margin="0,100,0,0"/>
+        </StackPanel>
+        <StackPanel x:Name="logos" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <DockPanel Name="align_logo">
+                <Button Name="button_risc" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Center" BorderThickness="0" Background="Transparent" Cursor="Hand" Margin="0 0 50 0" Click="Button_risc_Click">
+                    <Image Name="netowrk_icons" Source="images\icons\icons8-connexion-réseau-câblée-100.png" Width="100" />
+                </Button>
+                <Button Name="button_ared" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Center" BorderThickness="0" Background="Transparent" Cursor="Hand" Margin="0 0 50 0" Click="Button_ared_Click">
+                    <Image Name="_icons" Source="\images\icons\icons8-caméra-pro-100.png" Width="100" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 0"/>
+                </Button>
+                <Button Name="global_button" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Center" BorderThickness="0" Background="Transparent" Margin="0 0 0 0" Click="Button_global_Click">
+                    <Image Name="global_icons" Source="images\icons\icons8-poste-de-travail-100.png" Width="100" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 0"/>
+                </Button>
+            </DockPanel>
+        </StackPanel>
+        <TextBlock Name="risc_name" Text="RISC" FontWeight="Light" FontFamily="Microsoft Sans Serif" FontSize="25" Foreground="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="210,259,0,0"/>
+        <TextBlock Name="ared_name" Text="ARED" FontWeight="Light" FontFamily="Microsoft Sans Serif" FontSize="25" Foreground="Black" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,259,0,0"/>
+        <TextBlock Name="ared_desc" Text="ARED" FontWeight="Light" FontFamily="Microsoft Sans Serif" FontSize="25" Foreground="Black" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,259,0,0"/>
+        <TextBlock Name="global_name" Text="GLOBAL" FontWeight="Light" FontFamily="Microsoft Sans Serif" FontSize="25" Foreground="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="500,259,0,0" RenderTransformOrigin="4.368,0.461"/>
+        <TextBlock Name="global_des" Text="ARED" FontWeight="Light" FontFamily="Microsoft Sans Serif" FontSize="25" Foreground="Black" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,259,0,0"/>
+    </Grid>
+</Window>

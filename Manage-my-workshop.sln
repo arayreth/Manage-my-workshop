@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manage my workshop", "Manage my workshop\Manage my workshop.csproj", "{B35BD0C0-FCB0-499D-BF0D-3E77474C43CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B35BD0C0-FCB0-499D-BF0D-3E77474C43CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35BD0C0-FCB0-499D-BF0D-3E77474C43CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35BD0C0-FCB0-499D-BF0D-3E77474C43CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35BD0C0-FCB0-499D-BF0D-3E77474C43CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58C1CCE6-6E0F-473C-8756-9B4EEA94C289}
+	EndGlobalSection
+EndGlobal

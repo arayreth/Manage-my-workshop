@@ -1,0 +1,17 @@
+﻿<Application x:Class="Manage_my_workshop.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Manage_my_workshop"
+             StartupUri="MainWindow.xaml">
+            <!-- Liste des fenetetre pour start en dev-->
+            <!-- MainWindow.xaml pour start la fenetre prinicpale -->
+            <!-- Window1.xaml pour start la fenetre d'inscription -->
+            <!-- help.xaml pour start la fenetre d'aide -->
+            <!-- section_choices.xaml pour start la fenetre des choix -->
+            <!--settings.xaml pour start la fenetre des parametres -->
+            <!-- license.xaml pour start la fenetre de la license -->
+            <!-- no_internet.xaml pour start la fenetrre d'erreur pour la connexion-->
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
